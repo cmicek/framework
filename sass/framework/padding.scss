@@ -1,0 +1,91 @@
+// 
+//  Padding Base
+// 
+
+
+.padding--0,
+.padding--none              { padding: 0                }
+.padding                    { padding: $size            }
+.padding--double            { padding: $size-double     }
+.padding--triple            { padding: $size-triple     }
+.padding--quadruple         { padding: $size-quadruple  }
+.padding--half              { padding: $size-half       }
+.padding--quarter           { padding: $size-quarter    }
+.padding--eighth            { padding: $size-eighth     }
+.padding--auto              { padding: auto             }
+
+
+.padding-top--0,
+.padding-top--none          { padding-top: 0                }
+.padding-top                { padding-top: $size            }
+.padding-top--double        { padding-top: $size-double     }
+.padding-top--triple        { padding-top: $size-triple     }
+.padding-top--quadruple     { padding-top: $size-quadruple  }
+.padding-top--half          { padding-top: $size-half       }
+.padding-top--quarter       { padding-top: $size-quarter    }
+.padding-top--eighth        { padding-top: $size-eighth     }
+.padding-top--auto          { padding-top: auto             }
+
+
+.padding-bottom--0,
+.padding-bottom--none       { padding-bottom: 0                }
+.padding-bottom             { padding-bottom: $size            }
+.padding-bottom--double     { padding-bottom: $size-double     }
+.padding-bottom--triple     { padding-bottom: $size-triple     }
+.padding-bottom--quadruple  { padding-bottom: $size-quadruple  }
+.padding-bottom--half       { padding-bottom: $size-half       }
+.padding-bottom--quarter    { padding-bottom: $size-quarter    }
+.padding-bottom--eighth     { padding-bottom: $size-eighth     }
+.padding-bottom--auto       { padding-bottom: auto             }
+
+
+.padding-left--0,
+.padding-left--none         { padding-left: 0                  }
+.padding-left               { padding-left: $size              }
+.padding-left--double       { padding-left: $size-double       }
+.padding-left--triple       { padding-left: $size-triple       }
+.padding-left--quadruple    { padding-left: $size-quadruple    }
+.padding-left--half         { padding-left: $size-half         }
+.padding-left--quarter      { padding-left: $size-quarter      }
+.padding-left--eighth       { padding-left: $size-eighth       }
+.padding-left--auto         { padding-left: auto               }
+
+
+.padding-right--0,
+.padding-right--none        { padding-right: 0                 }
+.padding-right              { padding-right: $size             }
+.padding-right--double      { padding-right: $size-double      }
+.padding-right--triple      { padding-right: $size-triple      }
+.padding-right--quadruple   { padding-right: $size-quadruple   }
+.padding-right--half        { padding-right: $size-half        }
+.padding-right--quarter     { padding-right: $size-quarter     }
+.padding-right--eighth      { padding-right: $size-eighth      }
+.padding-right--auto        { padding-right: auto              }
+
+// 
+// Padding Components
+// 
+
+.padding-sides--0,
+.padding-sides--none        { padding-left: 0;               padding-right: 0                }
+.padding-sides              { padding-left: $size;           padding-right: $size;           }
+.padding-sides--double      { padding-left: $size-double;    padding-right: $size-double     }
+.padding-sides--triple      { padding-left: $size-triple;    padding-right: $size-triple     }
+.padding-sides--quadruple   { padding-left: $size-quadruple; padding-right: $size-quadruple  }
+.padding-sides--half        { padding-left: $size-half;      padding-right: $size-half       }
+.padding-sides--quarter     { padding-left: $size-quarter;   padding-right: $size-quarter    }
+.padding-sides--eighth      { padding-left: $size-eighth;    padding-right: $size-eighth     }
+.padding-sides--auto        { padding-left: auto;            padding-right: auto;            }
+
+
+.padding-ends--0,
+.padding-ends--none          { padding-top: 0;               padding-bottom: 0                }
+.padding-ends                { padding-top: $size;           padding-bottom: $size;           }
+.padding-ends--double        { padding-top: $size-double;    padding-bottom: $size-double     }
+.padding-ends--triple        { padding-top: $size-triple;    padding-bottom: $size-triple     }
+.padding-ends--quadruple     { padding-top: $size-quadruple; padding-bottom: $size-quadruple  }
+.padding-ends--half          { padding-top: $size-half;      padding-bottom: $size-half       }
+.padding-ends--quarter       { padding-top: $size-quarter;   padding-bottom: $size-quarter    }
+.padding-ends--eighth        { padding-top: $size-eighth;    padding-bottom: $size-eighth     }
+.padding-ends--auto          { padding-top: auto;            padding-bottom: auto;            }
+

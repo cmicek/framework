@@ -1,0 +1,131 @@
+// 
+// Color Variables
+// 
+$white: #fff;
+$cream: #EEECE3;
+$blue: #3E576D;
+$orange: #EC7647;
+$grey: #5A5A58;
+
+$black: rgb(51,45,41);
+
+
+
+// 
+// White <-> Black
+// 
+
+.color--white                 { color:                $white }
+.background-color--white      { background-color:     $white }
+.border-color--white          { border-color:         $white }
+.border-top-color--white      { border-top-color:     $white }
+.border-right-color--white    { border-right-color:   $white }
+.border-bottom-color--white   { border-bottom-color:  $white }
+.border-left-color--white     { border-left-color:    $white }
+
+.color--cream                  { color:                $cream }
+.background-color--cream       { background-color:     $cream }
+.border-color--cream           { border-color:         $cream }
+.border-top-color--cream       { border-top-color:     $cream }
+.border-right-color--cream     { border-right-color:   $cream }
+.border-bottom-color--cream    { border-bottom-color:  $cream }
+.border-left-color--cream      { border-left-color:    $cream }
+
+    .color--cream__darker                  { color:                darken($cream, 5%) }
+    .background-color--cream__darker       { background-color:     darken($cream, 5%) }
+    .border-color--cream__darker           { border-color:         darken($cream, 5%) }
+    .border-top-color--cream__darker       { border-top-color:     darken($cream, 5%) }
+    .border-right-color--cream__darker     { border-right-color:   darken($cream, 5%) }
+    .border-bottom-color--cream__darker    { border-bottom-color:  darken($cream, 5%) }
+    .border-left-color--cream__darker      { border-left-color:    darken($cream, 5%) }
+
+    .color--cream__lighter                  { color:                lighten($cream, 10%) }
+    .background-color--cream__lighter       { background-color:     lighten($cream, 10%) }
+    .border-color--cream__lighter           { border-color:         lighten($cream, 10%) }
+    .border-top-color--cream__lighter       { border-top-color:     lighten($cream, 10%) }
+    .border-right-color--cream__lighter     { border-right-color:   lighten($cream, 10%) }
+    .border-bottom-color--cream__lighter    { border-bottom-color:  lighten($cream, 10%) }
+    .border-left-color--cream__lighter      { border-left-color:    lighten($cream, 10%) }
+
+.color--blue                  { color:                $blue }
+.background-color--blue       { background-color:     $blue }
+.border-color--blue           { border-color:         $blue }
+.border-top-color--blue       { border-top-color:     $blue }
+.border-right-color--blue     { border-right-color:   $blue }
+.border-bottom-color--blue    { border-bottom-color:  $blue }
+.border-left-color--blue      { border-left-color:    $blue }
+
+
+    .color--blue__darker                  { color:                darken($blue, 5%) }
+    .background-color--blue__darker       { background-color:     darken($blue, 5%) }
+    .border-color--blue__darker           { border-color:         darken($blue, 5%) }
+    .border-top-color--blue__darker       { border-top-color:     darken($blue, 5%) }
+    .border-right-color--blue__darker     { border-right-color:   darken($blue, 5%) }
+    .border-bottom-color--blue__darker    { border-bottom-color:  darken($blue, 5%) }
+    .border-left-color--blue__darker      { border-left-color:    darken($blue, 5%) }
+
+    .color--blue__lighter                  { color:                lighten($blue, 10%) }
+    .background-color--blue__lighter       { background-color:     lighten($blue, 10%) }
+    .border-color--blue__lighter           { border-color:         lighten($blue, 10%) }
+    .border-top-color--blue__lighter       { border-top-color:     lighten($blue, 10%) }
+    .border-right-color--blue__lighter     { border-right-color:   lighten($blue, 10%) }
+    .border-bottom-color--blue__lighter    { border-bottom-color:  lighten($blue, 10%) }
+    .border-left-color--blue__lighter      { border-left-color:    lighten($blue, 10%) }
+
+
+.color--orange                  { color:                $orange }
+.background-color--orange       { background-color:     $orange }
+.border-color--orange           { border-color:         $orange }
+.border-top-color--orange       { border-top-color:     $orange }
+.border-right-color--orange     { border-right-color:   $orange }
+.border-bottom-color--orange    { border-bottom-color:  $orange }
+.border-left-color--orange      { border-left-color:    $orange }
+
+    .color--orange__darker                  { color:                darken($orange, 5%) }
+    .background-color--orange__darker       { background-color:     darken($orange, 5%) }
+    .border-color--orange__darker           { border-color:         darken($orange, 5%) }
+    .border-top-color--orange__darker       { border-top-color:     darken($orange, 5%) }
+    .border-right-color--orange__darker     { border-right-color:   darken($orange, 5%) }
+    .border-bottom-color--orange__darker    { border-bottom-color:  darken($orange, 5%) }
+    .border-left-color--orange__darker      { border-left-color:    darken($orange, 5%) }
+
+    .color--orange__lighter                  { color:                lighten($orange, 10%) }
+    .background-color--orange__lighter       { background-color:     lighten($orange, 10%) }
+    .border-color--orange__lighter           { border-color:         lighten($orange, 10%) }
+    .border-top-color--orange__lighter       { border-top-color:     lighten($orange, 10%) }
+    .border-right-color--orange__lighter     { border-right-color:   lighten($orange, 10%) }
+    .border-bottom-color--orange__lighter    { border-bottom-color:  lighten($orange, 10%) }
+    .border-left-color--orange__lighter      { border-left-color:    lighten($orange, 10%) }
+
+.color--grey                  { color:                $grey }
+.background-color--grey       { background-color:     $grey }
+.border-color--grey           { border-color:         $grey }
+.border-top-color--grey       { border-top-color:     $grey }
+.border-right-color--grey     { border-right-color:   $grey }
+.border-bottom-color--grey    { border-bottom-color:  $grey }
+.border-left-color--grey      { border-left-color:    $grey }
+
+    .color--grey__darker                  { color:                darken($grey, 5%) }
+    .background-color--grey__darker       { background-color:     darken($grey, 5%) }
+    .border-color--grey__darker           { border-color:         darken($grey, 5%) }
+    .border-top-color--grey__darker       { border-top-color:     darken($grey, 5%) }
+    .border-right-color--grey__darker     { border-right-color:   darken($grey, 5%) }
+    .border-bottom-color--grey__darker    { border-bottom-color:  darken($grey, 5%) }
+    .border-left-color--grey__darker      { border-left-color:    darken($grey, 5%) }
+
+    .color--grey__lighter                  { color:                lighten($grey, 10%) }
+    .background-color--grey__lighter       { background-color:     lighten($grey, 10%) }
+    .border-color--grey__lighter           { border-color:         lighten($grey, 10%) }
+    .border-top-color--grey__lighter       { border-top-color:     lighten($grey, 10%) }
+    .border-right-color--grey__lighter     { border-right-color:   lighten($grey, 10%) }
+    .border-bottom-color--grey__lighter    { border-bottom-color:  lighten($grey, 10%) }
+    .border-left-color--grey__lighter      { border-left-color:    lighten($grey, 10%) }
+
+
+.color--black                 { color:                $black }
+.background-color--black      { background-color:     $black }
+.border-color--black          { border-color:         $black }
+.border-top-color--black      { border-top-color:     $black }
+.border-right-color--black    { border-right-color:   $black }
+.border-bottom-color--black   { border-bottom-color:  $black }
+.border-left-color--black     { border-left-color:    $white }

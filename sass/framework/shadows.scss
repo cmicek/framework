@@ -1,0 +1,21 @@
+// 
+// Box Shadow Base
+// 
+
+.box-shadow--0
+.box-shadow--none     { box-shadow: none }
+
+.box-shadow,
+.box-shadow--outset   { box-shadow: 0 1px 2px rgba(0,0,0,.15) }
+.box-shadow--inset    { box-shadow: inset 0 1px 2px rgba(0,0,0,.15), 0 1px 0 rgba(255,255,255,.25) }
+
+
+// 
+// Test Shadow Base
+// 
+
+.text-shadow--0
+.text-shadow--none     { text-shadow: none }
+.text-shadow,
+.text-shadow--outset   { text-shadow: 0 1px 2px rgba(0,0,0,.15) }
+.text-shadow--inset    { text-shadow:  0 1px 0 rgba(255,255,255,.5) }

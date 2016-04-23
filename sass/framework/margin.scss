@@ -1,0 +1,89 @@
+// 
+// Margin Base
+// 
+
+.margin--0,
+.margin--none              { margin: 0                }
+.margin                    { margin: $size            }
+.margin--double            { margin: $size-double     }
+.margin--triple            { margin: $size-triple     }
+.margin--quadruple         { margin: $size-quadruple  }
+.margin--half              { margin: $size-half       }
+.margin--quarter           { margin: $size-quarter    }
+.margin--eighth            { margin: $size-eighth     }
+.margin--auto              { margin: auto             }
+
+
+.margin-top--0,
+.margin-top--none          { margin-top: 0                }
+.margin-top                { margin-top: $size            }
+.margin-top--double        { margin-top: $size-double     }
+.margin-top--triple        { margin-top: $size-triple     }
+.margin-top--quadruple     { margin-top: $size-quadruple  }
+.margin-top--half          { margin-top: $size-half       }
+.margin-top--quarter       { margin-top: $size-quarter    }
+.margin-top--eighth        { margin-top: $size-eighth     }
+.margin-top--auto          { margin-top: auto             }
+
+
+.margin-bottom--0,
+.margin-bottom--none       { margin-bottom: 0                }
+.margin-bottom             { margin-bottom: $size            }
+.margin-bottom--double     { margin-bottom: $size-double     }
+.margin-bottom--triple     { margin-bottom: $size-triple     }
+.margin-bottom--quadruple  { margin-bottom: $size-quadruple  }
+.margin-bottom--half       { margin-bottom: $size-half       }
+.margin-bottom--quarter    { margin-bottom: $size-quarter    }
+.margin-bottom--eighth     { margin-bottom: $size-eighth     }
+.margin-bottom--auto       { margin-bottom: auto             }
+
+
+.margin-left--0,
+.margin-left--none         { margin-left: 0                  }
+.margin-left               { margin-left: $size              }
+.margin-left--double       { margin-left: $size-double       }
+.margin-left--triple       { margin-left: $size-triple       }
+.margin-left--quadruple    { margin-left: $size-quadruple    }
+.margin-left--half         { margin-left: $size-half         }
+.margin-left--quarter      { margin-left: $size-quarter      }
+.margin-left--eighth       { margin-left: $size-eighth       }
+.margin-left--auto         { margin-left: auto               }
+
+
+.margin-right--0,
+.margin-right--none        { margin-right: 0                 }
+.margin-right              { margin-right: $size             }
+.margin-right--double      { margin-right: $size-double      }
+.margin-right--triple      { margin-right: $size-triple      }
+.margin-right--quadruple   { margin-right: $size-quadruple   }
+.margin-right--half        { margin-right: $size-half        }
+.margin-right--quarter     { margin-right: $size-quarter     }
+.margin-right--eighth      { margin-right: $size-eighth      }
+.margin-right--auto        { margin-right: auto              }
+
+// 
+// Margin Components
+// 
+
+.margin-sides--0,
+.margin-sides--none        { margin-left: 0;               margin-right: 0                }
+.margin-sides              { margin-left: $size;           margin-right: $size;           }
+.margin-sides--double      { margin-left: $size-double;    margin-right: $size-double     }
+.margin-sides--triple      { margin-left: $size-triple;    margin-right: $size-triple     }
+.margin-sides--quadruple   { margin-left: $size-quadruple; margin-right: $size-quadruple  }
+.margin-sides--half        { margin-left: $size-half;      margin-right: $size-half       }
+.margin-sides--quarter     { margin-left: $size-quarter;   margin-right: $size-quarter    }
+.margin-sides--eighth      { margin-left: $size-eighth;    margin-right: $size-eighth     }
+.margin-sides--auto        { margin-left: auto;            margin-right: auto;            }
+
+
+.margin-end--0,
+.margin-end--none          { margin-top: 0;               margin-bottom: 0                }
+.margin-end                { margin-top: $size;           margin-bottom: $size;           }
+.margin-end--double        { margin-top: $size-double;    margin-bottom: $size-double     }
+.margin-end--triple        { margin-top: $size-triple;    margin-bottom: $size-triple     }
+.margin-end--quadruple     { margin-top: $size-quadruple; margin-bottom: $size-quadruple  }
+.margin-end--half          { margin-top: $size-half;      margin-bottom: $size-half       }
+.margin-end--quarter       { margin-top: $size-quarter;   margin-bottom: $size-quarter    }
+.margin-end--eighth        { margin-top: $size-eighth;    margin-bottom: $size-eighth     }
+.margin-end--auto          { margin-top: auto;            margin-bottom: auto;            }

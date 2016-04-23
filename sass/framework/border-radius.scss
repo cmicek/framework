@@ -1,0 +1,19 @@
+// 
+// Radius Variables
+// 
+$radius-double : 4px;
+$radius        : 3px;
+$radius-half   : 2px;
+
+// 
+// Border Radius base
+// 
+
+.border-radius--0,
+.border-radius--none              { border-radius: 0 }
+.border-radius                    { border-radius: $radius }
+.border-radius--half              { border-radius: $radius-half }
+.border-radius--double            { border-radius: $radius-double }
+
+.border-radius--100,
+.border-radius--full            { border-radius: 500px }
